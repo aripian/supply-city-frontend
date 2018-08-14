@@ -39,6 +39,16 @@ angular
 		controller: 'usersCtrl',
 		controllerAs: 'users'
 	  })
+	  .when('/single_news_eg', {
+		templateUrl: 'views/single_news_eg.html',
+		controller: 'usersCtrl',
+		controllerAs: 'users'
+	  })
+	  .when('/index2', {
+		templateUrl: 'views/index2.html',
+		controller: 'usersCtrl',
+		controllerAs: 'users'
+	  })
 	  .when('/roles', {
 		templateUrl: 'views/roles.html',
 		controller: 'rolesCtrl',
